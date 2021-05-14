@@ -1,0 +1,82 @@
+::-webkit-scrollbar {
+    display: none;
+}
+#redestitulo{
+    
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+
+#twitchbutton{
+    width: 90vw;
+   font-family: 'Quicksand', sans-serif;
+  font-size: 1.6rem;
+  border-radius: 50px;
+  color: white;
+  background-color:#292929;
+}
+
+html, body {
+       height:100%;
+       
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .foot{
+    background-color: #333;
+    overflow: hidden;
+    padding: 5px 20px;
+    width:100vw;
+    position: absolute;
+    top: 95%;
+  }
+  .titulofoot{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  
+  }
+  
+
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3)
+  {
+    #twitchbutton{
+        width: 100%;
+    }
+    .foot{
+        height: 15vh;
+        position: absolute;
+    top: 100%;
+    margin-top: 70px;
+    }
+    #redestitulo{
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
+and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
+{
+    .foot{
+        height: 15vh;
+        position: absolute;
+    top: 100%;
+    margin-top: 80px;
+    }
+}
